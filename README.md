@@ -75,7 +75,7 @@ simple Makefile that builds the example in this project:
     CXXFLAGS=-I$(INC_DIR) -std=c++11 -fopenmp
 
     INC_DIR =<path to RAJA install directory>/include
-    LIB_DIR =<path to RAJA install directory>/include/lib
+    LIB_DIR =<path to RAJA install directory>/lib
 
     LIBS=-lRAJA
 
